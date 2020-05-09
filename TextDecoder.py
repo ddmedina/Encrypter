@@ -23,7 +23,7 @@ while(True):
 # Reads in the offset number along with the message
 encryptedArray = f.readline(-1).split('^')
 offset = encryptedArray[0]
-encodedMessage = encryptedArray[1].rstrip("\n")
+#encodedMessage = encryptedArray[1].rstrip("\n")
 
 # Reads the rotated character type array of the encoded file
 typeArray = f.readline(-1).split("^")
@@ -64,7 +64,7 @@ for i in range(len(d)):
 # Instantiation of a list to house the decrypted characters
 # and of the string that houses the decrypted message
 decodedLst = []
-decodedMesaage = ""
+#decodedMesaage = ""
 
 
 # Simple method that accesses a list and returns the 
